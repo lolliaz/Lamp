@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Text Reveal</title>
+</head>
+<body>
+    <div class="switch-container">
+        <span class="switch-label">On off</span>
+        <label class="switch">
+            <input type="checkbox" id="lightSwitch">
+            <span class="slider"></span>
+        </label>
+    </div>
+
+    <div class="error_overlay">
+        <div class="starsec"></div>
+        <div class="starthird"></div>
+        <div class="starfourth"></div>
+        <div class="starfifth"></div>
+        <div class="starleft"></div>
+    </div>
+
+    <div class="lamp_warm">
+        <div class="lamp off">
+            <div class="cable"></div>
+            <div class="cover"></div>
+            <div class="in-cover">
+                <div class="bulb"></div>
+            </div>
+            <div class="light"></div>
+        </div>
+    </div>
+
+    <section class="error">
+        <div class="error__content">
+            <div class="error__message message">
+                <h1 class="message__title">Good Night</h1>
+                <p class="message__text">sleep well &#10024;</p>
+            </div>
+        </div>
+    </section>
+
+    <button id="play-btn">Play Music</button>
+
+  <audio id="bg-music" loop>
+  <source src="audio/mymusic.mp3" type="audio/mpeg">
+  Browser kamu tidak mendukung audio.
+</audio>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
