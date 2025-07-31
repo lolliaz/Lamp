@@ -624,9 +624,10 @@ button {
   overflow: hidden;
   max-height: 100vh;
 }
-@media (max-width: 1400px) {
+@media (max-width: 768px) {
   .lamp {
-    zoom: 0.5;
+    transform: scale(0.6);
+    transform-origin: top center;
   }
   .error__content {
     top: 55%;
